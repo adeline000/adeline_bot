@@ -22,6 +22,10 @@ while True:
       feelings_list.append("sad")
       encouragement_list.append("cheer up and your day would be a bit better")
       counter += 1 
+    if each_word == "disappointed":
+      feelings_list.append("disappointed")
+      encouragement_list.append("find something to take your mind off your disappointment and remember there are always more chances to succeed")
+      counter += 1
 
   if counter == 0:
     
